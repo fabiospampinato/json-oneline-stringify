@@ -1,0 +1,33 @@
+{
+  "name": "json-oneline-stringify",
+  "repository": "github:fabiospampinato/json-oneline-stringify",
+  "description": "A little function for stringifying into a single line, in a readable form.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "benchmark": "tsex benchmark",
+    "benchmark:watch": "tsex benchmark --watch",
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "json",
+    "oneline",
+    "stringify",
+    "readable",
+    "formatted"
+  ],
+  "devDependencies": {
+    "benchloop": "^2.1.1",
+    "fava": "^0.3.1",
+    "tsex": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
