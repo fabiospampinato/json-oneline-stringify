@@ -5,7 +5,7 @@ A little function for stringifying into a single line, in a readable form.
 ## Install
 
 ```sh
-npm install --save json-oneline-stringify
+npm install json-oneline-stringify
 ```
 
 ## Usage
