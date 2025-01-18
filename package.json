@@ -2,6 +2,7 @@
   "name": "json-oneline-stringify",
   "repository": "github:fabiospampinato/json-oneline-stringify",
   "description": "A little function for stringifying into a single line, in a readable form.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -26,8 +27,8 @@
   ],
   "devDependencies": {
     "benchloop": "^2.1.1",
-    "fava": "^0.3.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.2.2"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
