@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/json-oneline-stringify",
   "description": "A little function for stringifying into a single line, in a readable form.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
